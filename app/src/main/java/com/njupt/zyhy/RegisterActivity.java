@@ -17,6 +17,8 @@ import com.mob.MobSDK;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.smssdk.EventHandler;
 import cn.smssdk.SMSSDK;
+
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bean.RegisterUser;
 import java.util.HashMap;
 
@@ -74,7 +76,8 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
         registerBackBtn.setOnClickListener(this);
         tv_getCheckCode.setOnClickListener(this);
 
-        MobSDK.init(this,"332c8fe3bd6f0","914a7a6e2fe11df8b96ddcdc20846b51");
+        //MobSDK.init(this,"","");
+        InitSDK.Initmob();
 
         //注册短信回调
         SMSSDK.registerEventHandler(ev);

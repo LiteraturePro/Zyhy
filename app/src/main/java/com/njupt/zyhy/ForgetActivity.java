@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.mob.MobSDK;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bmob.bson.BSONObject;
 import com.njupt.zyhy.bmob.restapi.Bmob;
 import java.util.HashMap;
@@ -81,7 +81,8 @@ public class ForgetActivity extends Activity implements View.OnClickListener{
         registerBackBtn.setOnClickListener(this);
         tv_getCheckCode.setOnClickListener(this);
 
-        MobSDK.init(this,"332c8fe3bd6f0","914a7a6e2fe11df8b96ddcdc20846b51");
+        //MobSDK.init(this,"","");
+        InitSDK.Initmob();
 
         //注册短信回调
         SMSSDK.registerEventHandler(ev);
@@ -231,7 +232,7 @@ public class ForgetActivity extends Activity implements View.OnClickListener{
     }
     // 直接调用API更新数据库
     private void update(String ID,String Passwd){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re;
         BSONObject bson = new BSONObject();
         bson.put("password", Passwd);

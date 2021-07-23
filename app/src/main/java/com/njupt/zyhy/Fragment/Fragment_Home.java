@@ -35,7 +35,7 @@ import com.njupt.zyhy.Fragment_guide_map;
 import com.njupt.zyhy.Fragment_guide_webview;
 import com.njupt.zyhy.R;
 import com.njupt.zyhy.ScanActivity;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bmob.restapi.Bmob;
 
 import java.util.ArrayList;
@@ -375,7 +375,7 @@ public class Fragment_Home extends Fragment {
         super.onActivityResult(requestCode, resultCode, data);
     }
     private String inindate(){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re,id;
         String Class,Voice,Name,Introduce,Pic1,Pic2,Pic3;;
         re = Bmob.findAll("Collection");
@@ -441,7 +441,7 @@ public class Fragment_Home extends Fragment {
         return re;
     }
     private String inindate2(){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re;
         String Title,Subtitle,Text,Pic1,Pic2,Pic3,Pic4;
         re = Bmob.findAll("Exhibit");

@@ -14,14 +14,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.Nullable;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bean.Order;
 import com.njupt.zyhy.bean.RegisterUser;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 import java.util.Hashtable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -95,7 +92,7 @@ public class Fragment_Home_canguanyuyue_add extends Activity implements View.OnC
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_yes:
-                InitBmob.Initbmob();
+                InitSDK.Initbmob();
                 Order order = new Order();
                 etusername = etUserName.getText().toString();
                 IDStr = etPassWord.getText().toString();

@@ -3,7 +3,6 @@ package com.njupt.zyhy;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -16,11 +15,8 @@ import androidx.annotation.Nullable;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.njupt.zyhy.Adapter.MsgAdapter;
 import com.njupt.zyhy.Adapter.W_MsgAdapter;
-import com.njupt.zyhy.bean.InitBmob;
-import com.njupt.zyhy.bean.Msg;
-import com.njupt.zyhy.bean.MsgLab;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bean.W_Msg;
 import com.njupt.zyhy.bean.W_MsgLab;
 import com.njupt.zyhy.bmob.restapi.Bmob;
@@ -104,7 +100,7 @@ public class Fragment_Home_zhoubianwenchuang extends Activity implements View.On
         }
     }
     private void inindate(){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re,id;
         String Class,Voice,Name,Introduce;
         re = Bmob.findAll("Cultural_Creation");

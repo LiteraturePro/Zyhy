@@ -24,7 +24,7 @@ import com.njupt.zyhy.Fragment_Exhibition_collect;
 import com.njupt.zyhy.Fragment_Home_seach;
 import com.njupt.zyhy.Fragment_collection_detail;
 import com.njupt.zyhy.R;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bean.Msg;
 import com.njupt.zyhy.bean.MsgLab;
 import com.njupt.zyhy.bmob.restapi.Bmob;
@@ -300,7 +300,7 @@ public class Fragment_Collection extends Fragment implements AdapterView.OnItemC
     }
 
     private void inindate(){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re,id;
         String Class,Voice,Name,Introduce,Pic1,Pic2,Pic3;;
         re = Bmob.findAll("Collection");
@@ -377,7 +377,7 @@ public class Fragment_Collection extends Fragment implements AdapterView.OnItemC
         if (postion == 0){
             inindate();
         }else{
-            InitBmob.Initbmob();
+            InitSDK.Initbmob();
             String re,id;
             String Class,Voice,Name,Introduce,Pic1,Pic2,Pic3;;
             String json = "{"+'"'+"Class"+'"'+":";

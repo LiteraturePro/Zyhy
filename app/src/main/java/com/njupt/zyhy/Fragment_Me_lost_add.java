@@ -24,7 +24,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 import com.hb.dialog.myDialog.ActionSheetDialog;
 import com.njupt.zyhy.bean.GetHttpBitmap;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bean.Lostinformation;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -234,7 +234,7 @@ public class Fragment_Me_lost_add  extends Activity implements View.OnClickListe
             showToast("请上传图片");
             return;
         }
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
 
         Lostinformation lostinformation = new Lostinformation();
         if (TextUtils.isEmpty(NameValue) || TextUtils.isEmpty(addressValue) ) {

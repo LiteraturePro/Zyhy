@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bean.SideslipListViews;
 import com.njupt.zyhy.bmob.restapi.Bmob;
 
@@ -145,7 +145,7 @@ public class Fragment_Me_order extends Activity implements View.OnClickListener{
         return re;
     }
     private void inindate(String re){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String text,title;;
         String id;
         JSONObject jsonObject = JSON.parseObject(re);

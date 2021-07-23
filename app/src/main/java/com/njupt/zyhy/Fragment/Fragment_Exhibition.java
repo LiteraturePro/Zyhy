@@ -26,7 +26,7 @@ import com.njupt.zyhy.Fragment_exhabition_detail;
 import com.njupt.zyhy.R;
 import com.njupt.zyhy.bean.GetHttpBitmap;
 import com.njupt.zyhy.bean.HistoryBean;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bmob.restapi.Bmob;
 import java.util.ArrayList;
 import java.util.List;
@@ -210,7 +210,7 @@ public class Fragment_Exhibition extends Fragment {
     }
 
     private void inindate(){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re;
         String Title,Subtitle,Text,Pic1,Pic2,Pic3,Pic4;
         re = Bmob.findAll("Exhibit");

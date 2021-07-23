@@ -22,7 +22,7 @@ import com.hb.dialog.dialog.ConfirmDialog;
 import com.hb.dialog.myDialog.MyAlertInputDialog;
 import com.njupt.zyhy.bean.CacheUtil;
 import com.njupt.zyhy.bean.ConfirmDialogQuit;
-import com.njupt.zyhy.bean.InitBmob;
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bmob.bson.BSONObject;
 import com.njupt.zyhy.bmob.restapi.Bmob;
 import java.io.BufferedReader;
@@ -188,7 +188,7 @@ public class Fragment_Me_setting extends Activity implements View.OnClickListene
 
     // 直接调用API更新数据库
     private void update(String ID,String Passwd){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re;
         BSONObject bson = new BSONObject();
         bson.put("password", Passwd);
@@ -198,7 +198,7 @@ public class Fragment_Me_setting extends Activity implements View.OnClickListene
 
     }
     private void detele(String ID){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re;
         re = Bmob.delete("_User", ID);
         showToast("删除成功");
@@ -206,7 +206,7 @@ public class Fragment_Me_setting extends Activity implements View.OnClickListene
 
     }
     private String find(){
-        InitBmob.Initbmob();
+        InitSDK.Initbmob();
         String re,yongjin_type = "1.0";
         re = Bmob.find("AppVersion", 1);
         Log.d("查询代码",re);

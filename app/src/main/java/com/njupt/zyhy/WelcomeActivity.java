@@ -10,8 +10,10 @@ import androidx.annotation.Nullable;
 
 
 import com.mob.MobSDK;
+import com.njupt.zyhy.bean.InitSDK;
 
 import cn.bmob.v3.Bmob;
+
 
 public class WelcomeActivity extends Activity {
     /**
@@ -26,7 +28,7 @@ public class WelcomeActivity extends Activity {
         setContentView(R.layout.activity_welcome);
 
         /**初始化数据库的连接*/
-        Bmob.initialize(this, "cc15119f58279a130fb52b657be04b72");
+        Bmob.initialize(this, "");
 
         MobSDK.submitPolicyGrantResult(true,null);
 

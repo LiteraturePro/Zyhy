@@ -20,6 +20,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.njupt.zyhy.bean.InitSDK;
 import com.njupt.zyhy.bean.RegisterUser;
 
 import cn.bmob.v3.BmobUser;
@@ -61,8 +62,8 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         sp = this.getSharedPreferences("userInfo", Context.MODE_PRIVATE);
 
         // 在任何网络下检查更新
-        BmobUpdateAgent.setUpdateOnlyWifi(false);
-        BmobUpdateAgent.update(this);
+        //BmobUpdateAgent.setUpdateOnlyWifi(false);
+        //BmobUpdateAgent.update(this);
 
         initView();
         initData();

@@ -97,8 +97,8 @@ dependencies {
 
 // 在MobSDK的扩展中注册MobAPM的相关信息
 MobSDK {
-    appKey "m332e4581bb99a"
-    appSecret "6c69040192b16d1eb1cde93b72714578"
+    appKey ""
+    appSecret ""
     // Apm工具
     MobApm {
 
