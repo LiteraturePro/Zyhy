@@ -24,7 +24,11 @@ before_install:
 
 script:
   - sudo apt-get update && sudo apt-get install oracle-java8-installer
+  - sudo apt-get install vim
   - java -version
+  - vim gradlew
+  - :set fileformat=unix
+  - :wq
 
 script:
   - ./gradlew assembleDebug
