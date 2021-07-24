@@ -27,4 +27,4 @@ script:
   - java -version
 
 script:
-  - chmod +x ./gradlew build connectedCheck 
+  - ./gradlew assembleDebug
