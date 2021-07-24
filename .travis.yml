@@ -29,6 +29,3 @@ script:
   - vim gradlew
   - :set fileformat=unix
   - :wq
-
-script:
-  - ./gradlew assembleDebug
