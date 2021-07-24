@@ -19,6 +19,9 @@ jdk:
 
 install: true
 
+before_install:
+ - chmod +x gradlew
+
 script:
   - sudo apt-get update && sudo apt-get install oracle-java8-installer
   - java -version
