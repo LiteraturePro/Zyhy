@@ -2,23 +2,24 @@
 
 > 针对的用户群体是现场参观的群体和线上云观展的群体。为现场参观的群体提供实时语音讲解服务、导览服务、展品介绍服务等，丰富补充这类群体线下参观的不足。为线上云观展的群体提供展品在线参观服务、展览回放服务、资料查看服务等，方便这类群体足不出户也可以体验到纪念馆所能传达的教育意义。
 
-> 这是第一个版本，就自己学习安卓开发做的，后端全是通过改数据实现，应该适合刚入门的小伙伴学习。第二个版本采用unicloud作为后端服务，开发了管理后台。
+> 这是第一个版本，就自己学习安卓开发做的，后端全是通过改后台数据库中的数据实现的，应该适合刚入门的小伙伴学习。第二个版本将采用unicloud作为后端服务，开发简单的管理后台。
 
-## v2.0 现在已经可以正常运行
-[点我查看v2.0版本](https://github.com/LiteraturePro/ZyhyPro)
+### v2.0 版本上线了
+* [v2.0版本](https://github.com/LiteraturePro/ZyhyPro)
+> 第一个版本云端能力太弱了，而且只能在后端添加数据，不能进行数据的管理，就这样，第二个版本就提上日程了。
+> 这样第二个版本采用unicloud作为后端服务，开发了后台进行管理，详情见[ZyhyPro](https://github.com/LiteraturePro/ZyhyPro)
 
-[APK下载](http://footprint.cn-sh2.ufileos.com/zyhy_v1.0_debug.apk)
 
 <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/c5464c55-8607-4c36-b4f6-245159b9f0f9.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/3898708b-a71b-4f1c-b961-ddb86f67a225.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/0f5137fe-d692-46a0-9a1a-c37d77b0ccd0.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/4eec686b-fff5-466a-b85e-6097b4e53e50.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/f9ea5948-b5d4-4816-ae7f-a3b3a98b6de8.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/995ed0aa-2374-46e1-af3a-f55d4a61c26d.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/2704ddc4-e95f-4e0c-aec1-9c2093210a93.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/3bade69c-ce19-4829-9002-539c0b47d78e.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/c31c3b85-065c-4a06-a8d3-de3768868f2e.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/6429ee6b-e38c-4448-b4c6-60dfcc40c8dc.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/2f0376d2-dee5-446c-9a76-8d9170a00e4a.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/3d74245d-11dc-4503-bb5f-f4f701ac1626.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/1b5edf40-c9cd-4769-bd4c-bdfa9b6c3547.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/77ec05c6-7459-462c-8615-cb383e068a78.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/102bdadb-56d5-4777-b20f-545400b5289e.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/9e95e369-ae4d-47ef-97e6-0a011b237c81.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/3f2ee9b8-5d05-4da0-bf92-157f888b7c7b.jpg" alt="图片替换文本" width="90" height="180" align="bottom" /><img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/b0cf76c9-f158-45ab-86d6-861dde39b60d.jpg" alt="图片替换文本" width="90" height="180" align="bottom" />
 
 
-## 🔨开发工具
-* [Android Studio](https://developer.android.google.cn/studio/)
-* [Bmob](https://bmob.cn/) [云端数据能力]
-* [MobTech](https://www.mob.com/) [手机号验证服务]
-* [Doge云](https://www.dogecloud.com/) [视频云服务]
+### 🔨开发工具
+* [Android Studio](https://developer.android.google.cn/studio/)【开发工具】
+* [Bmob](https://bmob.cn/) 【后端数据能力】
+* [MobTech](https://www.mob.com/) 【手机号验证服务】
+* [Doge云](https://www.dogecloud.com/) 【视频云服务】
 
-## 🍄功能介绍
+### 🍄功能介绍
 * 账号功能 ✔️
    * 登录
    * 注册(支持手机号验证)
@@ -41,7 +42,7 @@
 * 信息反馈 ✔️
    * 用户反馈
  
-## 🎁更新日志
+### 🎁更新日志
 #### v0.1
 * 2021-06-21 完成项目架构(瞎几把想);
 * 2021-06-23 完成登录、注册、导航设计;
@@ -54,12 +55,7 @@
 * 2021-07-01 接入Doge云视频服务;
 * 2021-07-02 利用阿里云云测完成简单的功能测试;
 
-#### v0.2
-> 第一个版本云端能力太弱了，而且只能在后端添加数据，不能进行数据的管理，就这样，第二个版本就提上日程了。
-> 这样第二个版本采用unicloud作为后端服务，开发了后台进行管理，详情见[ZyhyPro](https://github.com/LiteraturePro/ZyhyPro)
-
-
-## 🔨安装过程
+### 🔨安装过程
 #### 1、下载源码，使用Andriod Studio导入项目，等待编译完成
 > 插件比较臃肿，编译过程较慢，建议配置代理服务器，导入项目，实现正常运行对小白还是有一定难度的，耐心调试
 
@@ -99,12 +95,12 @@
 如有问题，请提issues
 
 
-## 💰关于广告
+### 💰关于广告
 
 目前的版本没有加入广告
 
 
-## License
+### License
 
 1. Copyright © [Literature](https://www.ovzv.cn)
 
@@ -112,18 +108,18 @@
     - Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) 
     - Commercial application is prohibited by license
 
-## 📭参考文档
+### 📭参考文档
 
 - [Android Studio](https://developer.android.google.cn/docs)
 - [Mob开发文档](https://mob.com/wiki/list)
 - [Bmob开发文档](http://doc.bmob.cn/)
 - [Doge云开发文档](https://docs.dogecloud.com/vcloud/sdk-player-android)
 
-## 感谢以下开源组件
+### 感谢以下开源组件
 
 - [EasyNavigation](https://github.com/Vincent7Wong/EasyNavigation)
 - [ViewPagerGallery](https://github.com/lzjin/ViewPagerGallery)
 - [fastjson](https://github.com/alibaba/fastjson)
 
-### 喜欢项目的请给个Star, 谢谢！
+#### 喜欢项目的请给个Star, 谢谢！
 
